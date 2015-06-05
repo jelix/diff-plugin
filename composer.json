@@ -1,0 +1,30 @@
+{
+    "name": "jelix/diff-plugin",
+    "type": "jelix-module",
+    "description": "a plugin for Jelix or Castor to render show differences between two content in a template",
+    "keywords": ["diff", "jelix", "castor", "jtpl"],
+    "homepage": "http://jelix.org",
+    "license": "LGPL-2.1",
+    "authors": [
+        {
+            "name": "Laurent Jouanneau",
+            "email": "laurent@jelix.org"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "classmap": [ "lib/" ]
+    },
+    "minimum-stability": "stable",
+    "extra" : {
+        "jelix" : {
+            "plugins-dir": [
+                "plugins/"
+            ]
+        },
+        "branch-alias": {
+            "master":"1.7.x-dev"
+        }
+    }
+}
